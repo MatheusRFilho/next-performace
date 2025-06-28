@@ -52,7 +52,6 @@ export default function UseCallbackUseMemoPage() {
   const [renderCount, setRenderCount] = useState(0);
   const [noMemoResult, setNoMemoResult] = useState(0);
   
-  // Contadores simples baseados no count para simular renders
   const callbackRenderCount = Math.floor(count / 2) + 1;
   const noCallbackRenderCount = count + 1;
   
@@ -67,7 +66,6 @@ export default function UseCallbackUseMemoPage() {
     setCount(value);
   };
 
-  // Com useMemo - só recalcula quando count muda
   const expensiveValueWithMemo = useMemo(() => {
     const startTime = performance.now();
     const result = expensiveCalculation(count);
@@ -76,7 +74,6 @@ export default function UseCallbackUseMemoPage() {
     return result;
   }, [count]);
 
-  // Função para calcular sem useMemo (chamada manualmente)
   const calculateWithoutMemo = () => {
     const startTime = performance.now();
     const result = expensiveCalculation(count);
@@ -86,10 +83,8 @@ export default function UseCallbackUseMemoPage() {
     return result;
   };
 
-  // Força re-render para demonstrar a diferença
   const forceRender = () => {
     setRenderCount(prev => prev + 1);
-    // Simula o cálculo sem useMemo
     calculateWithoutMemo();
   };
 

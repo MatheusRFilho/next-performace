@@ -5,7 +5,6 @@ import { usePathname } from 'next/navigation';
 export default function Header() {
   const pathname = usePathname();
 
-  // Função para obter informações da página atual
   const getPageInfo = () => {
     switch (pathname) {
       case '/':
