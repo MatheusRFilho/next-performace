@@ -25,6 +25,18 @@ export default function Header() {
           subtitle: 'Comparação de Performance',
           description: 'Análise das diferenças entre tag img e componente Image'
         };
+      case '/ssr':
+        return {
+          title: 'SSR',
+          subtitle: 'Server-Side Rendering',
+          description: 'Explicação do Server-Side Rendering'
+        };
+      case '/ssr-demo':
+        return {
+          title: 'SSR Demo',
+          subtitle: 'Dados Complexos',
+          description: 'Demonstração do Server-Side Rendering com dados complexos'
+        };
       default:
         return {
           title: 'Página',

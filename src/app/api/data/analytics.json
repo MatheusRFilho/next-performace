@@ -1,0 +1,71 @@
+{
+  "totalPosts": 100000,
+  "totalUsers": 100000,
+  "totalComments": 0,
+  "averageLikes": 509,
+  "averageComments": 0,
+  "topTags": [
+    {
+      "tag": "JavaScript",
+      "count": 23598
+    },
+    {
+      "tag": "Web Development",
+      "count": 23555
+    },
+    {
+      "tag": "Next.js",
+      "count": 23466
+    },
+    {
+      "tag": "Performance",
+      "count": 23462
+    },
+    {
+      "tag": "Security",
+      "count": 23388
+    },
+    {
+      "tag": "Deployment",
+      "count": 23357
+    },
+    {
+      "tag": "TypeScript",
+      "count": 23347
+    },
+    {
+      "tag": "Optimization",
+      "count": 23319
+    },
+    {
+      "tag": "SEO",
+      "count": 23292
+    },
+    {
+      "tag": "Testing",
+      "count": 23286
+    }
+  ],
+  "recentActivity": [
+    "Juliana Martins 1241 publicou \"Como otimizar performance no Next.js - Parte 2320\"",
+    "Miguel Ribeiro 640 publicou \"SEO técnico - Parte 3441\"",
+    "João Silva 1177 publicou \"SEO técnico - Parte 3360\"",
+    "Andre Carvalho 169 publicou \"Monitoramento de erros - Parte 4260\"",
+    "Sofia Gomes 1775 publicou \"Deploy em produção - Parte 2864\"",
+    "Ricardo Pereira 1891 publicou \"Guia completo de SEO - Parte 1901\"",
+    "Matheus Martins 2209 publicou \"Técnicas avançadas de caching - Parte 4721\"",
+    "Sofia Gomes 2838 publicou \"Melhores práticas de SSR - Parte 4790\"",
+    "Valentina Pereira 97 publicou \"Arquitetura de micro-frontends - Parte 2024\"",
+    "Maria Santos 142 publicou \"Debugging de aplicações React - Parte 1568\"",
+    "Alice Carvalho 803 publicou \"SEO técnico - Parte 4908\"",
+    "Andre Carvalho 2290 publicou \"Acessibilidade web - Parte 1294\"",
+    "Fernando Alves 796 publicou \"Monitoramento de erros - Parte 4680\"",
+    "Maria Santos 2224 publicou \"Debugging de aplicações React - Parte 4413\"",
+    "Enzo Souza 2112 publicou \"Como otimizar performance no Next.js - Parte 1768\"",
+    "Carlos Ferreira 702 publicou \"Deploy em produção - Parte 1472\"",
+    "Marcos Dias 1877 publicou \"Técnicas avançadas de caching - Parte 204\"",
+    "Thiago Santos 2612 publicou \"Acessibilidade web - Parte 3162\"",
+    "Camila Souza 140 publicou \"Debugging de aplicações React - Parte 4623\"",
+    "Lucas Lima 46 publicou \"Debugging de aplicações React - Parte 742\""
+  ]
+}

@@ -14,6 +14,8 @@ const navItems: NavItem[] = [
   { name: 'Sobre', href: '/', icon: '📊' },
   { name: 'useCallback x useMemo', href: '/use-callback-vs-use-memo', icon: '⚡' },
   { name: 'HTML img vs Next.js Image', href: '/img-vs-next-image', icon: '🖼️' },
+  { name: 'SSR', href: '/ssr', icon: '🚀' },
+  { name: 'SSR Demo', href: '/ssr-demo', icon: '💡' },
 ];
 
 export default function Sidebar() {
